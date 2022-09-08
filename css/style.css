@@ -26,28 +26,23 @@ img{
   height: 60px;
 }
 .row-1{
-  padding: 5px;
+  
 }
 .col{
   background-color: rgba(15,14,23,255);
   width: 300px;
-  height: 20px;
   color: white;
   float: left;
+  width: calc(100% / 3);
+  font-size: 13px;
 }
 .float{
   float: left;
 }
-.cleaerfix::after{
+.clearfix::after{
   content: '';
   display: table;
   clear: both;
 }
-.row-1 .col{
-  float: left;
-  width: calc(100% / 3);
-  padding: 20px;
-  text-align: center;
-  height: 100px;
-}
+
 
