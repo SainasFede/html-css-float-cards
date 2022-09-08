@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 70%;
+  max-width: 1200px;
+  margin: auto;
+  
+}
+
+h1{
+  color: rgba(229,49,112,255);
+  padding-bottom: 20px;
+}
+
+.Titolo{
+  text-align: center;
+  padding: 20px;
+}
+
+img{
+  width: 60px;
+  height: 60px;
+}
+.row-1{
+  padding: 5px;
+}
+.col{
+  background-color: rgba(15,14,23,255);
+  width: 300px;
+  height: 20px;
+  color: white;
+  float: left;
+}
+.float{
+  float: left;
+}
+.cleaerfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.row-1 .col{
+  float: left;
+  width: calc(100% / 3);
+  padding: 20px;
+  text-align: center;
+  height: 100px;
+}
+
