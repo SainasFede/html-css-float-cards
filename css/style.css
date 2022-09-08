@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 .container{
@@ -21,29 +22,40 @@ h1{
 }
 
 img{
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
+  padding-right: 5px;
 }
-.row-1{
+a{
+  color: #32a2d6;
 }
+
 .col{
   background-color: rgba(15,14,23,255);
   color: white;
   float: left;
   width: calc(88% / 3);
-  font-size: 13px;
+  font-size: 15px;
   margin: 12px;
+  box-shadow: 3px 3px 5px #b6b6b6;
 }
+
 .float{
   float: left;
 }
+
 .clearfix::after{
   content: '';
   display: table;
   clear: both;
 }
-ul{
-  list-style: none;
+
+.col h5 {
+  padding-top: 7px;
+  padding-bottom: 6px;
 }
 
+.col p {
+  padding-bottom: 6px;
+}
 
