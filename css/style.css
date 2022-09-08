@@ -8,7 +8,6 @@
   width: 70%;
   max-width: 1200px;
   margin: auto;
-  
 }
 
 h1{
@@ -26,15 +25,14 @@ img{
   height: 60px;
 }
 .row-1{
-  
 }
 .col{
   background-color: rgba(15,14,23,255);
-  width: 300px;
   color: white;
   float: left;
-  width: calc(100% / 3);
+  width: calc(88% / 3);
   font-size: 13px;
+  margin: 12px;
 }
 .float{
   float: left;
@@ -43,6 +41,9 @@ img{
   content: '';
   display: table;
   clear: both;
+}
+ul{
+  list-style: none;
 }
 
 
